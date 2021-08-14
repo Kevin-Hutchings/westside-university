@@ -32,7 +32,11 @@ h1, h2, h3, p {
   width: calc(100vw - 140px);
   height: calc(100% - 135px);
   border: 2px solid lightgray;
+  line-height: 15px;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .home-box {
