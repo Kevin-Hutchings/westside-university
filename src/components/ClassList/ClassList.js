@@ -16,6 +16,7 @@ export default class ClassList extends Component {
     .then(({data}) => {
       this.setState({ students: data })
     })
+    .catch((e) => console.log(e))
   }
 
   render() {

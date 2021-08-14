@@ -16,6 +16,7 @@ export default class Student extends Component {
     .then(({data}) => {
       this.setState({ studentInfo: data })
     })
+    .catch((e) => console.log(e))
   }
 
   render() {
