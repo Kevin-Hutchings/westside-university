@@ -28,9 +28,9 @@ export default class Student extends Component {
         <h1> {studentInfo.first_name} {studentInfo.last_name} </h1>
         <h3> Grade: {studentInfo.grade} </h3>
         <h3> Email: {studentInfo.email} </h3>
-        <button className='btn'>
-          <Link to={`/classlist/${studentInfo.class}`}> Back to Class List </Link>
-        </button>
+          <Link to={`/classlist/${studentInfo.class}`}>
+            <button className='btn'> Back to Class List </button>
+          </Link>
       </div>
     )
   }
